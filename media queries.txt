@@ -1,0 +1,417 @@
+@media screen and (max-width: 767px) and (min-width: 576px) {
+  /***********    navbar           *****************/
+
+  /**************  main    ****************/
+  .main {
+    padding: 1rem 3rem;
+  }
+  .main-content {
+    padding-right: 2rem;
+    text-align: center;
+  }
+  .main-content h1 {
+    font-size: 0.75rem;
+    font-weight: 400;
+    text-align: justify;
+  }
+
+  button {
+    margin-top: 0.5rem;
+    padding: 0.25rem 0.5rem;
+  }
+  .main-image {
+    margin-top: 2rem;
+    height: 200px;
+    width: 300px;
+  }
+  .main-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  /******************* download ****************/
+
+  .download {
+    padding: 2rem;
+  }
+  .download-heading {
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+  }
+  .download-para {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .download-image .playstore,
+  .download-image .appstore {
+    width: 100px;
+    height: 50px;
+    margin: 0 1rem;
+  }
+  /**********  features   *************/
+  .features {
+    padding: 1rem;
+  }
+  .features h1 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    padding-bottom: 1px;
+  }
+  .features h5 {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+
+  .iconholder {
+    flex-direction: column;
+    padding: 1rem 0 0 0;
+  }
+  .iconholder-image {
+    display: none;
+  }
+
+  .iconholder-content {
+    margin-top: 1rem;
+  }
+  .row {
+    flex-direction: column;
+  }
+  .icon {
+    padding: 0.5rem;
+  }
+  .icon-heading {
+    font-size: 12px;
+    font-weight: 400;
+    padding-top: 0.5rem;
+  }
+
+  .icon i {
+    font-size: 2rem;
+  }
+
+  /********** middle container*******************/
+
+  .middle-container {
+    height: 300px;
+  }
+
+  .middle-container-h1,
+  .middle-container-h2 {
+    font-size: 2rem;
+  }
+  /*************** contact ****************/
+  .contact {
+    padding: 1rem 0;
+  }
+
+  .contact h1 {
+    font-size: 1rem;
+  }
+  .contact-icon {
+    width: 25px;
+    height: 25px;
+  }
+
+  /******************   footer *****************/
+  footer {
+    font-size: 0.55rem;
+    padding: 0.5rem;
+  }
+  .footer a:not(:last-child) {
+    margin-right: 0.25rem;
+  }
+}
+/******************   phone *********************/
+@media only screen and (max-device-width: 575px) and (min-device-width: 423px) {
+  /***********    navbar           *****************/
+  .navbar {
+    flex-direction: column;
+    padding: 0;
+    align-items: center;
+  }
+  .navbar nav ul {
+    flex-direction: column;
+  }
+  .navbar .nav-title {
+    font-size: 1.5rem;
+    padding-bottom: 0.5rem;
+  }
+  .navbar ul li:not(:first-child) {
+    padding: 0;
+  }
+  .navbar a {
+    font-size: 0.75rem;
+  }
+
+  /**************  main    ****************/
+  .main {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 3rem;
+  }
+  .main-content {
+    padding-right: 2rem;
+    text-align: center;
+  }
+  .main-content h1 {
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: justify;
+  }
+
+  button {
+    margin-top: 0.5rem;
+    padding: 0.25rem 0.5rem;
+  }
+  .main-image {
+    margin-top: 2rem;
+    height: 200px;
+    width: 300px;
+  }
+  .main-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  /******************* download ****************/
+
+  .download {
+    padding: 2rem;
+  }
+  .download-heading {
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+  }
+  .download-para {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .download-image .playstore,
+  .download-image .appstore {
+    width: 100px;
+    height: 50px;
+    margin: 0 1rem;
+  }
+  /**********  features   *************/
+  .features {
+    padding: 1rem;
+  }
+  .features h1 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    padding-bottom: 1px;
+  }
+  .features h5 {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+
+  .iconholder {
+    flex-direction: column;
+    padding: 1rem 0 0 0;
+  }
+  .iconholder-image {
+    display: none;
+  }
+
+  .iconholder-content {
+    margin-top: 1rem;
+  }
+  .row {
+    flex-direction: column;
+  }
+  .icon {
+    padding: 0.5rem;
+  }
+  .icon-heading {
+    font-size: 12px;
+    font-weight: 400;
+    padding-top: 0.5rem;
+  }
+
+  .icon i {
+    font-size: 2rem;
+  }
+
+  /********** middle container*******************/
+
+  .middle-container {
+    height: 300px;
+  }
+
+  .middle-container-h1,
+  .middle-container-h2 {
+    font-size: 2rem;
+  }
+  /*************** contact ****************/
+  .contact {
+    padding: 1rem 0;
+  }
+
+  .contact h1 {
+    font-size: 1rem;
+  }
+  .contact-icon {
+    width: 25px;
+    height: 25px;
+  }
+
+  /******************   footer *****************/
+  footer {
+    font-size: 0.55rem;
+    padding: 0.5rem;
+  }
+  .footer a:not(:last-child) {
+    margin-right: 0.25rem;
+  }
+}
+/************** iphone ***********************/
+ @media only screen and (max-device-width: 424px) {
+  /**********    navbar           **************** */
+ .navbar {
+    flex-direction: column;
+    padding: 1rem;
+    align-items: center;
+  }
+  .navbar nav ul {
+    flex-direction: column;
+  }
+  .navbar .nav-title {
+    font-size: 2rem;
+    padding-bottom: 0.25rem;
+  }
+  .navbar ul li:not(:first-child) {
+    padding: 0;
+  }
+  .navbar a {
+    font-size: 1rem;
+  } */
+
+  /**************  main    ****************/
+  .main {
+    align-items: center;
+    padding: 0 1rem 1rem 1rem;
+  }
+  .main-content {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    text-align: center;
+  }
+  .main-content h1 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: justify;
+  }
+
+  .main-image {
+    margin-top: 1rem;
+    height: 200px;
+    width: 300px;
+  }
+  .main-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  /******************* download ****************/
+
+  .download {
+    padding: 1rem;
+  }
+  .download-heading {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+  }
+  .download-para {
+    font-size: 0.75rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .download-image .playstore,
+  .download-image .appstore {
+    width: 100px;
+    height: 35px;
+    margin: 0 1rem;
+  }
+  /**********  features   *************/
+  .features {
+    padding: 1rem;
+  }
+  .features h1 {
+    font-size: 1rem;
+    font-weight: 300;
+    padding-bottom: 1px;
+  }
+  .features h5 {
+    font-size: 0.75rem;
+    font-weight: 500;
+  }
+
+  .iconholder {
+    flex-direction: column;
+    padding: 1rem 0 0 0;
+  }
+  .iconholder-image {
+    display: none;
+  }
+
+  .iconholder-content {
+    margin-top: 1rem;
+  }
+  .row {
+    flex-direction: column;
+  }
+  .icon {
+    padding: 0.5rem;
+  }
+  .icon-desc {
+    font-size: 0.75rem;
+  }
+
+  .icon-heading {
+    font-size: 12px;
+    font-weight: 400;
+    padding-top: 0.5rem;
+  }
+
+  .icon i {
+    font-size: 2rem;
+  }
+
+  /********** middle container*******************/
+
+  .middle-container {
+    height: 300px;
+  }
+
+  .middle-container-h1,
+  .middle-container-h2 {
+    font-size: 1rem;
+  }
+  /*************** contact ****************/
+  .contact {
+    padding: 1rem 0;
+  }
+
+  .contact h1 {
+    font-size: 1rem;
+  }
+  .contact-icon {
+    width: 25px;
+    height: 25px;
+  }
+
+  /******************   footer *****************/
+  footer {
+    font-size: 0.55rem;
+    padding: 0.5rem;
+  }
+  .footer a:not(:last-child) {
+    margin-right: 0.25rem;
+  }
+}
