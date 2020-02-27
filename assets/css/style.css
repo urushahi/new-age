@@ -47,6 +47,9 @@ a {
 .navbar ul li:not(:first-child) {
   padding-left: 2rem;
 }
+.navbar .toggle {
+  display: none;
+}
 
 /*******   main   *******/
 .main {
@@ -73,6 +76,10 @@ a {
   background: inherit;
   color: white;
   border-radius: 20px;
+}
+.main-content a:hover {
+  background-color: #f9f5fa;
+  color: black;
 }
 .main-image {
   height: 500px;
@@ -119,7 +126,7 @@ a {
   padding: 3rem 7rem;
 }
 .features h1 {
-  font-size: 40px;
+  font-size: 2.5rem;
   text-align: center;
   font-weight: 400;
 }
@@ -151,7 +158,7 @@ a {
   padding: 1.5rem 2rem;
 }
 .icon-heading {
-  font-size: 28px;
+  font-size: 2rem;
   font-weight: 400;
   padding-top: 1rem;
 }
@@ -191,6 +198,10 @@ a {
   color: white;
   border-radius: 20px;
 }
+.middle-container-btn:hover {
+  background-color: #f9f5fa;
+  color: black;
+}
 .middle-container-h1,
 .middle-container-h2 {
   font-size: 3.5rem;
@@ -208,7 +219,7 @@ a {
   color: #dc2430;
 }
 .contact h1 {
-  font-size: 35px;
+  font-size: 2.5rem;
   font-weight: 500;
 }
 .contact-iconholder {
@@ -253,34 +264,39 @@ footer a {
     padding: 1rem 2rem;
   }
   .navbar .nav-title {
-    font-size: 2rem;
+    font-size: 1.375rem;
   }
-  .navbar nav ul {
-    flex-direction: column;
+  .navbar a {
+    font-size: 0.625rem;
   }
   .navbar ul li:not(:first-child) {
-    padding-left: 0;
+    padding-left: 1rem;
   }
 
   /*********** main *****************/
   .main {
-    padding: 2rem;
+    padding: 0 2rem;
   }
   .main-content h1 {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    padding-bottom: 1rem;
   }
   .main-image {
     height: 300px;
   }
 
   /**************download ***************/
+  .download {
+    padding: 3rem 2rem;
+  }
   .download-para {
     text-align: center;
   }
 
   /*******   features    *****/
   .features {
-    padding: 1rem;
+    padding: 2rem 2rem 0 2rem;
   }
   .features h5 {
     font-size: 1.5rem;
@@ -290,7 +306,7 @@ footer a {
     align-items: center;
   }
   .iconholder-content {
-    margin: 3rem 0;
+    margin: 2rem 0;
   }
   .iconholder-image {
     align-items: center;
@@ -299,18 +315,62 @@ footer a {
     margin-right: 2rem;
   }
 }
+@media screen and (max-device-width: 610px) {
+  /**********  features  ****************/
+  .features h1 {
+    font-size: 1.5rem;
+  }
+  .features h5 {
+    font-size: 1rem;
+  }
+  .iconholder {
+    padding-top: 2rem;
+  }
+  .row {
+    flex-direction: column;
+  }
+  .icon {
+    display: flex;
+    align-items: center;
+    padding: 1.5rem 0;
+  }
+
+  .icon-heading {
+    padding-top: 0;
+    font-size: 1.5rem;
+  }
+  .icon i {
+    font-size: 4rem;
+  }
+  .icon-content {
+    padding-left: 2rem;
+    text-align: left;
+  }
+  .mobile-icon {
+    padding-right: 1rem;
+  }
+}
 /**************    sm    *******/
-@media screen and (max-device-width: 424px) {
+@media screen and (max-device-width: 450px) {
   /***************navbar**********/
   .navbar {
-    padding: 1rem;
+    padding: 1.5rem;
+    align-items: center;
+  }
+  .navbar nav {
+    display: none;
   }
   .navbar a {
     font-size: 0.5rem;
   }
   .navbar .nav-title {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
+  .navbar .toggle {
+    display: block;
+    color: #ffffff;
+  }
+
   /**************main ************/
   main {
     flex-direction: column;
@@ -318,10 +378,17 @@ footer a {
   }
   .main-image {
     height: 200px;
-    margin-top: 2rem;
+    margin: 2rem 0;
   }
   .main-content {
     padding-right: 0;
+    text-align: center;
+  }
+  .main-content h1 {
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: justify;
+    margin: 2rem 0;
   }
 
   /*********download*************/
@@ -329,16 +396,52 @@ footer a {
     padding: 2rem;
   }
 
-  .download-image {
-    flex-direction: column;
-  }
   .download-heading {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
+    line-height: 2;
   }
   .download-image .playstore,
   .download-image .appstore {
+    margin: 0;
     margin-bottom: 1rem;
   }
+  .download-para {
+    margin-top: 1rem;
+  }
+  /**********  features  ****************/
+  .features h1 {
+    font-size: 1.5rem;
+  }
+  .features h5 {
+    font-size: 1rem;
+  }
+  .iconholder {
+    padding-top: 2rem;
+  }
+  .row {
+    flex-direction: column;
+  }
+  .icon {
+    display: flex;
+    align-items: center;
+    padding: 1rem 0;
+  }
+
+  .icon-heading {
+    padding-top: 0;
+    font-size: 1.5rem;
+  }
+  .icon i {
+    font-size: 4rem;
+  }
+  .icon-content {
+    padding-left: 2rem;
+    text-align: left;
+  }
+  .mobile-icon {
+    padding-right: 1rem;
+  }
+
   /*******   middle-container  *******/
   .middle-container-h1,
   .middle-container-h2 {
@@ -348,6 +451,10 @@ footer a {
     margin-bottom: 2rem;
   }
 
+  /******  contact   ********/
+  .contact h1 {
+    font-size: 1.625rem;
+  }
   /******* footer ***************/
   footer {
     flex-direction: column;
